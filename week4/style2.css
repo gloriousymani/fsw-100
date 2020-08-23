@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style: century gothic;
+}
+
+body {
+    background-image: url(../practicing-terminal/rose-background.jpg);
+    
+
+}
+.nav-bar {
+    float: right;
+    
+}
+ul{
+    margin-top: 20px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 4px 20px;
+    border: 1px solid black;
+}
+
+h1{
+font-size: 70px;
+font-family: 'Spectral SC', serif;
+color: rgb(228, 222, 228);
+text-decoration: underline;
+font-style: italic;
+}
+body{
+    background-image: url(https://lovelygreens.com/wp-content/uploads/make-rose-water-750x441.jpg);
+    height: 100vh;
+    background-size: cover;
+    margin: 20px;
+}
+
+.content{
+display: inline-block;
+padding: 250px 580px;
+background-color: blanchedalmond;
+border: black; padding: 25px 90px; margin-top: 130px;
+}
+table, th, td, tr{
+border: 1px solid whitesmoke;
+margin-top: 20px;
+}
+
+table{
+    position: absolute;
+    left: 41%;
+    top: 96%;
+}
+
+.footer{
+    position: absolute;
+    top: 110%;
+}
+.more-content{
+    position: absolute;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 250px 580px;
+background-color: blanchedalmond;
+border: black; padding: 25px 300px; margin-top: 15-px; width: 500px; left: 120px; bottom: 85px;
+}
+
