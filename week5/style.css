@@ -1,0 +1,119 @@
+.grid-container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+
+.grid-item1{
+    background: #F5C6D6;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    
+}
+
+.grid-item2{
+    background:#EE2E84 ;
+}
+
+.grid-item3{
+ background: #EE2E84;
+}
+
+.grid-item4{
+    background: #EE2E84;
+}
+
+.grid-item5{
+    background: #EE2E84;
+}
+
+.grid-item6{
+    background:#85CFD8 ;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.grid-item7{
+    background: #85CFD8;
+    grid-column-start: 3;
+    grid-column-end: 5;
+
+}
+
+.grid-item8{
+    background: #8DC63F;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.grid-item9{
+    background: #E76E34;
+}
+
+@media (max-width:768px){
+
+    .grid-container{
+        display: grid;
+        height: 80vh;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-row-gap: 5px;
+        grid-column-gap: 5px;
+    }
+
+    .grid-item1{
+        background: #F5C6D6;
+        grid-column-start: 1;
+        grid-column-end: 5;
+
+    }
+
+    .grid-item2{
+        background: #EE2E84;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+    .grid-item3{
+        background: #EE2E84;
+        grid-column-start: 1;
+        grid-column-end: 5;
+
+    }
+
+    .grid-item4{
+        background: #EE2E84;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+    .grid-item5{
+        background: #EE2E84;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    .grid-item6{
+        background:#85CFD8 ;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    .grid-item7{
+        background:#85CFD8 ;
+        grid-column-start: 1;
+        grid-column-end: 5; 
+    }
+    .grid-item8{
+        background: #8DC63F;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    } 
+
+    .grid-item9{
+        background: #E76E34;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+}
+
+
