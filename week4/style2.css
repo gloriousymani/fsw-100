@@ -47,7 +47,11 @@ margin: 0;
 width: 500px;
 height: 500px;
 margin: 100px auto;
+<<<<<<< HEAD
 background: rgb(250, 188, 204);
+=======
+background: floralwhite;
+>>>>>>> 4591c900c60140b43b7800ee04b8217e6ebfc414
 position: relative;
 
 }
@@ -99,4 +103,8 @@ left: 20px;
     position: absolute;  
     left: 80%;
     bottom: 140px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 4591c900c60140b43b7800ee04b8217e6ebfc414
