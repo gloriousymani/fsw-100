@@ -15,10 +15,12 @@
 
 .grid-item2{
     background:#EE2E84 ;
+    grid-column-start: 
 }
 
 .grid-item3{
  background: #EE2E84;
+
 }
 
 .grid-item4{

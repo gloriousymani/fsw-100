@@ -1,0 +1,75 @@
+.grid-container {
+    display: grid;
+    height: 50vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+
+.grid-item1{
+    background: rgba(230, 13, 13, 0.747);
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.grid-item2{
+    background:rgba(52, 23, 182, 0.884) ;
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
+
+.grid-item3{
+    background:rgba(6, 105, 39, 0.849) ;
+
+}
+
+    .grid-item4{
+    background: rgba(94, 0, 112, 0.699);
+    grid-column-start: 2;
+    grid-column-end: 6;}
+
+    .grid-item5{
+    background:rgb(238, 234, 27) ;
+    grid-column-start: 1;
+    grid-column-end: 6;
+
+}
+
+.grid-container2 {
+    display: grid;
+    height: 70vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+
+.grid1{
+    background:rgb(238, 27, 27) ;
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+.grid2{
+    background:rgb(30, 27, 238) ;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.grid3{
+    background:rgb(31, 151, 21) ;
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+
+    .grid4{
+        background:rgb(98, 26, 139) ;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+    .grid5{
+        background:rgb(98, 26, 139);
+        grid-column-start: 4;
+        grid-column-end: 6;
+        
+    }
