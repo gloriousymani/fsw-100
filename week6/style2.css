@@ -1,0 +1,167 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: cadetblue;
+}
+h1{
+    position: absolute;
+    padding: 3px;
+    margin-left: 4%;
+    margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255), 236, 236);
+}
+span{
+    color: rgb(0, 0, 0);
+}
+ul{
+    width: fit-content;
+    float: right;
+    margin-top: 10px;
+}
+li{
+    display: inline-block;
+    padding: 17px 35px;
+}
+
+a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3vw;
+}
+
+a:hover{
+    color: yellow;
+    transition: 0.5s;
+}
+
+.grid-container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+
+  
+
+.grid-item1{
+    grid-row-start: 1;
+    grid-row-end: 1fr;
+    background: rgb(235, 236, 160);
+    width: 300px;}
+
+    .grid-item1,span{
+        text-size-adjust: 3px;
+    }
+
+    .grid-item2{
+    background: tomato;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    }
+
+    h1{
+        font-family: 'Playball', cursive;
+        font-size: 50px;
+        color: white;
+    }
+
+    .milo{
+        font-family: 'Sigmar One', cursive;
+    }
+
+    .grid-item5{
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    table,tr,th{
+        border:1px solid black;
+        
+    }
+
+    table{
+        position: absolute;
+        margin-left: 30px;
+        margin-top: 10%;}
+
+    .registration{
+        position: absolute;
+        margin-left: 30px;
+        top: 500px;
+        display: flex;
+    }
+    .nav2{
+        width: fit-content;
+        float: left;
+        margin-top: 200px;
+    }
+
+
+        .page{
+            position: absolute;
+            margin-left: 15px;
+            margin-top: 300px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+    @media (max-width:900) {
+    .grid-container{
+        height: 50vh;
+    }
+    h1{
+        font-size: 1rem;
+    }
+    
+    img{
+        max-height: 200px;
+        min-width: 200px;}
+
+        .registration{
+        position: absolute;
+        margin-left: 90px;
+        top: 400px;
+        display: flex;
+        }
+        table{
+            position: absolute;
+            margin-left: 90px;
+            top: 500px;
+            display: flex;
+    }
+
+    @media (max-width:500) {
+        .grid-container{
+            height: 30vh;
+        }
+        h1{
+            font-size: 1rem;
+        }
+        
+        img{
+            position: absolute;
+            left: 3px;
+            max-height: 100px;
+            min-width: 100px;}
+    
+            .registration{
+            position: absolute;
+            margin-left: 90px;
+            top: 400px;
+            display: flex;
+            }
+            table{
+                position: absolute;
+                margin-left: 90px;
+                top: 500px;
+                display: flex;
