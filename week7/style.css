@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(241, 206, 212);
+}
+
+.navbar{
+    margin: 40px auto;
+    display: flex;
+    margin-right: 10px;
+}
+ul{
+    flex: 1;
+    text-align: right;
+    
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 25px 25px;
+    font-family: 'Raleway', sans-serif;
+}
+ul li a{
+    text-decoration: none;
+    color: blueviolet;
+    padding: 0 5px;
+    transition: 0.9s;
+    font-family: 'Raleway', sans-serif;
+}
+ul li a:hover{
+    color: black;
+    height: 80%;
+    width: 100vh;
+    border-bottom: 3px solid white;
+
+
+}
+.navbar h1{
+    font-family: 'Lobster', cursive;
+    font-size: 75px;
+    padding: 40px 10px;
+    position: absolute;
+    top: 3px;
+    
+}
+.col p{
+position: absolute;
+padding: 10px 10px;
+margin-left: 10px;
+top: 260px;
+font-family: 'Raleway', sans-serif;
+}
+.col h1{
+    position: absolute;
+    margin-left: 10px;
+    top: 160px;
+    font-family: 'Lobster', cursive;
+}
+.col span{
+    margin-left: 20px;
+}
+
+.image1 img{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    margin-left: 750px;
+    top: 150px;
+    border-style:solid;
+    border-width: 9px;
+    border-color: rgb(31, 12, 85);
+    
+
+}
+.image2 img{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    margin-left: 1000px;
+    top: 150px;
+    border-style:solid;
+    border-width: 9px;
+    border-color: rgb(31, 12, 85);
+}
+
+.image3 img{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    margin-left: 1000px;
+    top:400px;
+    border-style:solid;
+    border-width: 9px;
+    border-color: rgb(31, 12, 85);
+}
+
+.image4 img{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    margin-left: 750px;
+    top: 400px;
+    border-style:solid;
+    border-width: 9px;
+    border-color: rgb(31, 12, 85);
+}
+.options{
+position: absolute;
+top: 330px; 
+margin-left: 20px;
+}
+.options ul li{
+    border: solid black;
+    padding: 7px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+}
+
+.options ul{
+    margin-top: 10px;
+    display: inline-flex;
+    border-bottom: 3px solid rgb(60, 40, 114);
+}
+
+.options ul li:hover{
+
+
+}
+.image5 img{
+    position: absolute;
+    width: 280px;
+    height: 250px;
+    top: 420px;
+    left: 130px;
+}
+
+footer{
+    position: absolute;
+    top: 800px;
+}
